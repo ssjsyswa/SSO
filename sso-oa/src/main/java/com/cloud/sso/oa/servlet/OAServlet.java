@@ -11,8 +11,14 @@ public class OAServlet extends HttpServlet {
     private static final long serialVersionUID = 3615122544373006252L;
 
     @Override
+    /**
+     * ≤‚ ‘”√¿˝     
+     *      
+     *
+     */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getRequestDispatcher("/WEB-INF/jsp/welcome.jsp").forward(request, response);
+        System.err.println("as");
     }
 
     @Override
